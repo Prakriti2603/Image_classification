@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large model files (optional - you may want to include some)
+*.keras
+*.h5
+*.pkl
+
+# Dataset folders (too large for git)
+expanded_dataset/
+Fruits_Vegetables/
+temp_train_data/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.backup
+
+# Test images (optional - you may want to keep some)
+*_test_*.jpg
